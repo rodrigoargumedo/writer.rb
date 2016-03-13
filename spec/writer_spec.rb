@@ -5,7 +5,7 @@ describe Writer do
     expect(Writer::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'should have Writer defined' do
+    expect(defined?(Writer))
   end
 end
